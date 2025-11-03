@@ -1,1 +1,1 @@
-# Federal-School-Directory-Search-Tool
+# Federal School Directory Search Tool
