@@ -1,0 +1,545 @@
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT CAPTURE INSTRUCTIONS FOR FEDERAL SCHOOL DIRECTORY SEARCH TOOL
+Claude Desktop + Kapture MCP Tool Compatible
+═══════════════════════════════════════════════════════════════════════════════
+
+Instructions: Copy each screenshot block below and paste into Claude Desktop.
+The Kapture MCP tool will automatically capture the screenshots.
+
+Create a "screenshots" folder in the project root before starting:
+  mkdir screenshots
+
+Live URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Local Dev URL: http://localhost:5173
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #1: Hero Landing Page (Light Mode)
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 1920 x 1080 (desktop)
+Wait: 3 seconds after page load
+Output filename: hero-landing-light.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Ensure viewport is set to 1920x1080
+3. Wait for all content to load (3 seconds)
+4. Ensure LIGHT MODE is active (click sun/moon icon if needed)
+5. Scroll to top of page
+6. Use Kapture to capture the full viewport
+7. Save as hero-landing-light.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- MCF logo and "Federal School Directory" header
+- "My College Finance" tagline
+- Favorites, Compare, and Dark Mode toggle buttons
+- Search bar with placeholder text
+- State and City filter dropdowns
+- Total schools and showing count badges
+- View toggle buttons (Table/Card)
+- Export buttons (CSV, PDF, Markdown)
+- First few schools in table view
+
+NOTES:
+- Use light mode theme
+- Ensure all fonts and images are loaded
+- Hide scrollbars if visible in screenshot
+- Capture browser content only (no OS chrome)
+- Show the intro card for "Compare Schools Feature" if present
+
+ALT TEXT (for README):
+"Federal School Directory Search Tool landing page in light mode showing the MCF-branded header, search bar, filter controls, and table view of federal school codes with comparison and export features"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #2: Search and Filter in Action
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after search entry
+Output filename: search-filter-active.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Type "University" in the search bar
+3. Select "CA" from the State dropdown
+4. Select "Los Angeles" from the City dropdown (if available)
+5. Wait 2 seconds for results to filter
+6. Use Kapture to capture the full viewport
+7. Save as search-filter-active.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- Search bar with "University" entered
+- State filter showing "CA" selected
+- City filter showing city selection
+- Helper text: "💡 Tip: Filters update dynamically..."
+- Updated "Showing: X" badge with filtered count
+- Filtered results in table view
+- Active filter state visible
+
+NOTES:
+- Demonstrate active filtering state
+- Show reduced result count in badges
+- Ensure filter dropdowns show selections clearly
+- Use light mode for consistency
+
+ALT TEXT (for README):
+"Active search and filtering demonstration showing 'University' search term with California state filter selected, displaying filtered results in real-time with dynamic count updates"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #3: Card View Mode
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after view change
+Output filename: card-view-mode.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Click the "Card View" button in the view toggle
+3. Wait 2 seconds for cards to render
+4. Scroll to show a full grid of school cards
+5. Use Kapture to capture the full viewport
+6. Save as card-view-mode.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- Multiple school cards in grid layout (3-4 columns)
+- Each card showing:
+  - School name as title
+  - Federal code badge
+  - Address, City, State, ZIP information
+  - Star icon (favorite button)
+  - Chart icon (compare button)
+- "Card View" button highlighted/active
+- Professional card styling with shadows and borders
+
+NOTES:
+- Show at least 6-9 cards in the grid
+- Ensure cards are evenly spaced
+- Display cards with complete information
+- One card should show hover state if possible
+
+ALT TEXT (for README):
+"Card view mode displaying schools in a responsive grid layout with each card showing federal code, full address, and quick-action buttons for favorites and comparison"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #4: School Comparison Modal
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after modal opens
+Output filename: comparison-modal.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Click the 📊 icon on 3-4 different schools
+3. Click the "Compare (X)" button in the header
+4. Wait 2 seconds for comparison modal to open
+5. Use Kapture to capture the full viewport with modal
+6. Save as comparison-modal.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- Comparison modal overlay with dark background
+- Modal header: "Compare Schools (X)"
+- Side-by-side school comparison cards (3-4 schools)
+- Each comparison card showing:
+  - School name
+  - Remove button (×)
+  - Federal code
+  - Complete address details
+  - All school data fields
+- "Clear All" button
+- "Close" button (×)
+- MCF brand green accents on comparison cards
+
+NOTES:
+- Modal should be centered on screen
+- Show 3-4 schools for meaningful comparison
+- Ensure green border/highlight on comparison cards
+- Background should show underlying page (dimmed)
+
+ALT TEXT (for README):
+"School comparison modal displaying 3 schools side-by-side with detailed information including federal codes, addresses, and all institutional data for easy comparison"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #5: Favorites Modal
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after modal opens
+Output filename: favorites-modal.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Click the ★ icon on 5-6 different schools to add to favorites
+3. Click the "Favorites (X)" button in the header
+4. Wait 2 seconds for favorites modal to open
+5. Use Kapture to capture the full viewport with modal
+6. Save as favorites-modal.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- Favorites modal overlay
+- Modal header: "My Favorites (X schools)"
+- List of favorited schools in card format
+- Each school showing:
+  - School name
+  - Federal code
+  - Address information
+  - Gold star (★) indicating favorited status
+  - Remove option
+- "Close" button
+- MCF brand amber accents
+
+NOTES:
+- Show at least 5-6 favorited schools
+- Gold star should be prominent
+- Modal should be centered and styled consistently
+- If no favorites, show empty state message
+
+ALT TEXT (for README):
+"Favorites management modal showing saved schools with gold star indicators, allowing users to quickly access and manage their list of preferred institutions"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #6: Dark Mode Interface
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after dark mode activation
+Output filename: dark-mode-interface.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Click the dark mode toggle button (🌙 icon)
+3. Wait 2 seconds for theme transition to complete
+4. Ensure entire page is in dark mode
+5. Use Kapture to capture the full viewport
+6. Save as dark-mode-interface.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- Complete dark mode interface
+- Dark header with MCF branding
+- Dark search and filter section
+- Dark table or card view
+- Dark footer
+- All text clearly visible with proper contrast
+- MCF brand colors adapted for dark mode:
+  - Lighter blue for primary elements
+  - Bright green for success states
+  - Maintained amber for accents
+- Sun (☀️) icon indicating dark mode is active
+
+NOTES:
+- Ensure high contrast throughout
+- All elements should be clearly visible
+- Colors should maintain brand identity
+- Smooth transition from light mode
+
+ALT TEXT (for README):
+"Dark mode interface showing the complete Federal School Directory with MCF-branded dark theme, featuring optimized contrast and adapted brand colors for comfortable night-time viewing"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #7: Mobile Responsive View (Table)
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 375 x 812 (iPhone 12/13 portrait)
+Wait: 2 seconds after page load
+Output filename: mobile-table-view.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Set viewport to 375 x 812 (iPhone 12/13 size)
+3. Ensure "Table View" is selected
+4. Wait 2 seconds for responsive layout to render
+5. Scroll to show header and table content
+6. Use Kapture to capture the full viewport
+7. Save as mobile-table-view.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- Mobile-optimized header (stacked layout)
+- MCF logo (smaller size)
+- Control buttons stacked vertically
+- Search bar (full width)
+- Filter dropdowns (full width, stacked)
+- Stats badges stacked
+- View toggle buttons
+- Table with horizontal scroll capability
+- Touch-friendly button sizes (44px minimum)
+
+NOTES:
+- Portrait orientation
+- Show horizontal scroll indicator if visible
+- All interactive elements should meet touch target size
+- Demonstrate responsive stacking of elements
+- Use light mode for clarity
+
+ALT TEXT (for README):
+"Mobile responsive view showing the Federal School Directory optimized for iPhone with stacked controls, full-width search, and horizontally scrollable table for touch-friendly navigation"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #8: Mobile Card View
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 375 x 812 (iPhone 12/13 portrait)
+Wait: 2 seconds after view change
+Output filename: mobile-card-view.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Set viewport to 375 x 812 (iPhone 12/13 size)
+3. Click "Card View" button
+4. Wait 2 seconds for cards to render
+5. Scroll to show 3-4 school cards
+6. Use Kapture to capture the full viewport
+7. Save as mobile-card-view.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- Mobile header (compact)
+- "Card View" button highlighted
+- School cards in single-column layout (vertical stack)
+- Each card showing:
+  - Full school information
+  - Large touch targets for actions
+  - Clear typography
+  - Adequate spacing
+- Multiple cards visible (3-4)
+
+NOTES:
+- Single-column card layout
+- Cards should be full width (with margins)
+- Touch targets clearly visible
+- Show scrollable content
+- Demonstrate mobile-optimized card design
+
+ALT TEXT (for README):
+"Mobile card view displaying schools in a single-column vertical layout optimized for touch interaction with large action buttons and clear information hierarchy"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #9: Export Options
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 1920 x 1080 (desktop)
+Wait: 1 second after page load
+Output filename: export-options.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Scroll to the stats/controls section
+3. Ensure export buttons are clearly visible
+4. Optionally: filter results first to show "Showing: X" badge
+5. Use Kapture to capture the stats and export section
+6. Save as export-options.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- Stats badges showing:
+  - "Total Schools: 6,000+"
+  - "Showing: X" (filtered count)
+- View toggle buttons (Table/Card)
+- Export buttons clearly visible:
+  - CSV button
+  - PDF button
+  - Markdown button
+- All buttons styled with MCF branding
+- Section showing these are active/clickable
+
+NOTES:
+- Focus on the control/export area
+- Show filtering is active (reduced count)
+- Ensure export button icons/text are clear
+- Demonstrate professional button styling
+
+ALT TEXT (for README):
+"Export options showing CSV, PDF, and Markdown format buttons alongside view toggle controls and dynamic result count badges"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #10: ZIP Code Auto-Fill Feature
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after entering ZIP
+Output filename: zip-autofill-feature.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser (or refresh to reset)
+2. Type a 5-digit ZIP code in the search bar (e.g., "90210")
+3. Wait 2 seconds for auto-fill to trigger
+4. Observe the toast notification and filter updates
+5. Use Kapture to capture the full viewport
+6. Save as zip-autofill-feature.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- Search bar with ZIP code entered (e.g., "90210")
+- Toast notification showing:
+  "💡 Auto-filled location: [City], [State]"
+- State filter auto-populated (e.g., "CA")
+- City filter auto-populated (e.g., "Beverly Hills")
+- Helper text visible below filters
+- Filtered results showing schools in that ZIP
+
+NOTES:
+- Use a recognizable ZIP code (90210, 10001, 60601, etc.)
+- Toast should be visible in bottom-right (desktop)
+- Filters should show the auto-filled values
+- Demonstrate the smart ZIP detection feature
+- Capture the full workflow in one image
+
+ALT TEXT (for README):
+"ZIP code auto-fill feature demonstration showing automatic population of state and city filters after entering a ZIP code, with educational toast notification explaining the feature"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #11: Toast Notification System
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 1920 x 1080 (desktop)
+Wait: Capture immediately when toast appears
+Output filename: toast-notifications.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Trigger multiple toast notifications:
+   - Add a school to favorites (success toast)
+   - Try adding a 6th school to comparison (warning toast)
+3. Capture when 2-3 toasts are stacked
+4. Use Kapture to capture the full viewport
+5. Save as toast-notifications.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- Multiple toast notifications stacked (bottom-right on desktop)
+- Different toast types visible:
+  - Success toast (green border): "School added to favorites"
+  - Warning toast (orange border): "Maximum 5 schools in comparison"
+- Toast structure:
+  - Icon (✓, ⚠️, etc.)
+  - Message text
+  - Close button (×)
+- Smooth stacking of notifications
+- Background showing main interface
+
+NOTES:
+- Show 2-3 toasts simultaneously
+- Different toast types (success, warning, info)
+- Position: bottom-right corner
+- Demonstrate professional notification design
+- Time the capture for when toasts are visible
+
+ALT TEXT (for README):
+"Custom toast notification system displaying stacked success and warning messages with smooth animations and accessible design for user feedback"
+
+═══════════════════════════════════════════════════════════════════════════════
+SCREENSHOT #12: Footer with MCF Branding
+═══════════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: https://thiinkmg.github.io/Federal-School-Directory-Search-App/
+Viewport: 1920 x 1080 (desktop)
+Wait: 1 second after scroll
+Output filename: mcf-footer.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser
+2. Scroll to the bottom of the page
+3. Ensure the entire footer is visible
+4. Wait 1 second
+5. Use Kapture to capture the footer section
+6. Save as mcf-footer.png in ./screenshots/ folder
+
+CONTENT TO SHOW:
+- MCF logo (80px size)
+- "MY COLLEGE FINANCE" title
+- Description text
+- Footer navigation links:
+  - Main Website
+  - Privacy Policy
+  - Terms of Service
+  - Social Media Hub (Linktree)
+- Tagline: "EDUCATE • MOTIVATE • ELEVATE"
+- Copyright notice
+- Dark gradient background
+- Professional footer styling
+
+NOTES:
+- Full footer section visible
+- All links clearly readable
+- MCF branding prominent
+- Dark gradient from #111827 to #000000
+- Ensure text contrast is visible
+- Show complete footer layout
+
+ALT TEXT (for README):
+"Footer section featuring My College Finance branding with logo, navigation links, educational tagline 'EDUCATE • MOTIVATE • ELEVATE', and copyright information on a professional dark gradient background"
+
+═══════════════════════════════════════════════════════════════════════════════
+END OF SCREENSHOT INSTRUCTIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+SUMMARY:
+- Total Screenshots: 12
+- Desktop Screenshots: 9 (1920x1080)
+- Mobile Screenshots: 2 (375x812)
+- Estimated Time: 15-20 minutes for all captures
+
+NEXT STEPS:
+1. Create screenshots folder: mkdir screenshots
+2. Copy each screenshot block above
+3. Paste into Claude Desktop one at a time
+4. Wait for Kapture to capture and save each image
+5. Verify all screenshots saved correctly
+6. Insert screenshots into README.md using the alt text provided
+
+SCREENSHOT INSERTION FORMAT FOR README:
+![Alt text here](./screenshots/filename.png)
+*Caption: Additional description if needed*
+
+Example:
+![Federal School Directory landing page](./screenshots/hero-landing-light.png)
+*The main interface in light mode showing search, filters, and table view*
+
+═══════════════════════════════════════════════════════════════════════════════
+Generated: November 6, 2025
+For: Federal School Directory Search Tool v1.0.0
+Repository: https://github.com/ThiinkMG/Federal-School-Directory-Search-App
+═══════════════════════════════════════════════════════════════════════════════
