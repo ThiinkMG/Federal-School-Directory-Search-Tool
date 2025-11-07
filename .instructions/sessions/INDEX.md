@@ -1,12 +1,61 @@
 # Session Index - Federal School Directory Search Tool
 
 ## Quick Navigation
-- [Latest Session](#session-2025-11-06) (Nov 6, 2025)
+- [Latest Session](#session-2025-11-06-part-2) (Nov 6, 2025 - Part 2)
+- [Session 2025-11-06 Part 1](#session-2025-11-06-part-1) (Nov 6, 2025 - Part 1)
 - [Session 2025-01-06](#session-2025-01-06) (Jan 6, 2025)
 
 ---
 
-## Session 2025-11-06
+## Session 2025-11-06 (Part 2)
+**Date**: November 6, 2025
+**Type**: Deployment Troubleshooting & Fix
+**Duration**: ~30 minutes
+**Status**: ✅ Complete & Live
+
+### Summary
+Fixed GitHub Pages deployment showing "webapp" text instead of React app. Root cause was GitHub Actions workflow referencing non-existent `webapp/` directory and incorrect manual deployment of entire root directory instead of just built files.
+
+### Key Accomplishments
+- Diagnosed deployment issue using Task agent (workflow misconfiguration)
+- Fixed GitHub Actions workflow - removed all `webapp/` directory references
+- Cleared gh-pages cache and redeployed only dist folder
+- Verified correct gh-pages branch structure (built files only at root)
+- Committed and pushed workflow fix
+
+### Impact
+- Application now fully functional at live URL
+- GitHub Actions will work correctly on future pushes
+- gh-pages branch has correct structure (no source files)
+- Deployment time: 3.94s build + instant deploy
+
+### Files
+- **Full Log**: [session-2025-11-06-part2.md](./session-2025-11-06-part2.md)
+- **Compact**: [session-2025-11-06-part2-compact.md](./session-2025-11-06-part2-compact.md)
+
+### Keywords
+`deployment-fix`, `github-actions`, `gh-pages`, `troubleshooting`, `workflow-configuration`, `cache-clearing`, `branch-structure`
+
+### Git Commits
+1. **bd0f579**: Fix GitHub Actions workflow for correct deployment (1 file)
+
+### Root Cause
+- **Problem 1**: Workflow referenced `./webapp/` subdirectory that doesn't exist
+- **Problem 2**: Manual deployment pushed entire root instead of just `dist/`
+- **Problem 3**: GitHub Pages served source `index.html` instead of built version
+- **Solution**: Fixed workflow paths, cleared cache, redeployed correctly
+
+### Resolution Steps
+1. Updated `.github/workflows/deploy.yml` (removed `webapp/` references)
+2. Cleared gh-pages cache: `rm -rf node_modules/.cache/gh-pages`
+3. Rebuilt production: `npm run build`
+4. Redeployed: `npx gh-pages -d dist`
+5. Verified gh-pages branch structure
+6. Committed workflow fix
+
+---
+
+## Session 2025-11-06 (Part 1)
 **Date**: November 6, 2025
 **Type**: GitHub Deployment & Configuration
 **Duration**: ~45 minutes
@@ -96,13 +145,14 @@ Implemented comprehensive UX improvements based on UX Designer Agent analysis. C
 
 ## Statistics
 
-- **Total Sessions**: 2
-- **Total Deployments**: 1 (GitHub Pages)
+- **Total Sessions**: 3 (including 2 parts for Nov 6)
+- **Total Deployments**: 1 (GitHub Pages - fixed)
 - **Total Features**: 7 major implementations
-- **Files Created**: 52 (49 initial + 3 session docs)
-- **Files Modified**: 17
+- **Files Created**: 54 (49 initial + 5 session docs)
+- **Files Modified**: 18
 - **Lines Added**: ~10,827
-- **Git Commits**: 3
+- **Git Commits**: 5
+- **Issues Resolved**: 2 (base path mismatch, workflow misconfiguration)
 
 ---
 
