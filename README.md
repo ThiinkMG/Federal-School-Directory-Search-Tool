@@ -1345,15 +1345,41 @@ If you encounter an issue not listed here:
 2. **Check Browser Console**: Press F12 and look for error messages
 3. **Try Incognito/Private Mode**: Isolates extension conflicts
 4. **Report the Issue**: Open a GitHub issue with detailed information
+5. For questions or support, please contact:
+- [**My College Finance Technical Feedback Form**](https://docs.google.com/forms/d/e/1FAIpQLScyBwnqiz1L3ZOxV3C4f40jsOAW-YCw8xxfoBhPg2mgORshFA/viewform)
 
 ---
 
-**Built with ❤️ by My College Finance**
+## 🙏 Acknowledgments
 
-**EDUCATE • MOTIVATE • ELEVATE**
+**Created by**: [Thiink Media Graphics](https://www.thiinkmediagraphics.com/)  
+**In partnership with**: [My College Finance](https://www.mycollegefinance.com/)
+
 
 ---
+
+## 🤝 Contributing
+
+We welcome contributions to improve this educational tool:
+1. Fork the repository
+2. Create a feature branch
+3. Make your improvements
+4. Submit a pull request
+
+
+---
+
+## 📜 License
+
+© 2025 My College Finance. All rights reserved.
 
 *Last Updated: November 6, 2025*
 *Version: 1.0.0*
 *Repository: https://github.com/ThiinkMG/Federal-School-Directory-Search-Tool*
+
+---
+
+**Built with ❤️ by My College Finance**
+**EDUCATE • MOTIVATE • ELEVATE**
+
+---
